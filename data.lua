@@ -1,2 +1,2 @@
-require("__InfiniteResourcesWithOptionalDepletion__/prototypes/items")
-require("__InfiniteResourcesWithOptionalDepletion__/prototypes/shortcuts")
+require("__InfiniteResourcesWithOptionalDepletion_fx__/prototypes/items")
+require("__InfiniteResourcesWithOptionalDepletion_fx__/prototypes/shortcuts")

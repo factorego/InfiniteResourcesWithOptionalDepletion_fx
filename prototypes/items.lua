@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "selection-tool",
 		name = "infinite-resource-remover",
-		icon = "__InfiniteResourcesWithOptionalDepletion__/graphics/icons/infinite-resource-remover.png",
+		icon = "__InfiniteResourcesWithOptionalDepletion_fx__/graphics/icons/infinite-resource-remover.png",
 		flags = {"only-in-cursor", "spawnable"},
 		hidden = true,
 		stack_size = 1,
