@@ -4,8 +4,9 @@
   "title": "Infinite Resources with Optional Depletion FX",
   "author": "Penryn",
   "description": "FX fork - incompatible with original mod",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
-    "! InfiniteResourcesWithOptionalDepletion"
+    "! InfiniteResourcesWithOptionalDepletion",
+    "? pyhardmode"
   ]
 }
