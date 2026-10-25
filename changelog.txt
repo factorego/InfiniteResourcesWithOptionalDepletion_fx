@@ -1,0 +1,66 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2024/12/30
+  Fixes:
+    - Fix a crash when setting low values in mod settings
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2024/12/30
+  Fixes:
+    - Fix an incomplete refactor
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2024/12/26
+  Changes:
+    - Port to Factorio v2.0 (Space Age). Preceding changelog was from https://mods.factorio.com/mod/InfiniteResourcesNormalYieldDepletion.
+    - Maintainer changed to Penryn
+    - Shortened the name to "Infinite Resources with Optional Depletion"
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 2024/05/03
+  Changes:
+    - Increased the maximum allowed value for the depletion rate setting to the max possible before causing a crash: 4,294,967,295 (uint32).  Knock yourselves out! :)
+  Fixes:
+    - Fixed date formatting from previous entries to use double digit months.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 2023/02/23
+  Bugfixes:
+    - Corrected spelling mistake in English locale file.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 2023/01/31
+  Changes:
+    - 'Start Only' setting changed into a multi-selection to allow for All, Start Only, and All Except Start
+  Bugfixes:
+    - Corrected some code logic that prevented detection of new resources added by mods introduced on a save that already had this mod
+  Performance:
+    - Minor code changes in control.lua to reduce unnecessary code execution (mainly affects existing games this mod is first introduced to)
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 2022/07/4
+  Bugfixes:
+    - Fixed an issue where the code could inadvertently affect other mods' added infinite resources when making adjustments to this mod's settings
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 2022/01/3
+  Features:
+    - Added a new runtime setting for making the infinite resources apply only to the starter area (with RSO support)
+  Bugfixes:
+    - Corrected an error that prevented the Infinite Resource Removal tool's name from appearing in the shortcut bar
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 2021/12/30
+  Changes:
+    - Updated description in mod info file to match updated summary description on mod portal.  Apparently, on initial upload, the mod portal will accept any length description in the info file for the summary, but any subsequent attempts to edit the main page will result in it forcing you to limit the summary to 500 characters...
+    - Updated "homepage" link to point to forum post (should've done that in the first place...)
+  Fixes:
+    - Corrected the date in the changelog for initial release
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2021/12/29
+  Features:
+    - Initial release

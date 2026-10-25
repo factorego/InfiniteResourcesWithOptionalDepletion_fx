@@ -1,0 +1,11 @@
+{
+	"name": "InfiniteResourcesWithOptionalDepletion",
+	"version": "1.0.2",
+	"title": "Infinite Resources with Optional Depletion",
+	"author": "Penryn",
+	"contact": "https://mods.factorio.com/user/Penryn",
+	"homepage": "",
+	"description": "An infinite resource mod that allows miners to continue mining ore resources at the normal vanilla rates (no insane yields!), and then can optionally start decreasing to lower yields after the initial spawned resource amounts are mined, with only a single code execution per resource tile.  Includes settings for minimum depletion level and rate of depletion.  This mod is for those that want the benefit of infinite resources (never running out), while preserving the vanilla rate and feel. Updated for Space Age.",
+	"factorio_version": "2.0",
+	"dependencies": []
+}
